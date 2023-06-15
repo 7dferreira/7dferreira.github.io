@@ -186,7 +186,6 @@ html {
 }
 
 .home .container-banner {
-    padding: 20px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
@@ -219,7 +218,6 @@ html {
 
 .home .container-banner .introduction {
     margin-bottom: 10px;
-    margin-left: 20px; 
     color: white;
     
 }
