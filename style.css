@@ -477,6 +477,7 @@ html {
     color: #1CB698;
     margin-bottom: 10px;
     text-decoration: none;
+    color: inherit;
 }
 
 .experience .box .item p {
@@ -780,11 +781,4 @@ footer .arriba {
         margin-top: 150px;
        
     }
-}
-
-@media screen and (max-width:600px) {
-    .home .container-banner .container-img {
-        margin-right: 0;
-    }
-
 }
