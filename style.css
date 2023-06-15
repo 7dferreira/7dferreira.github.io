@@ -478,6 +478,11 @@ html {
     color: inherit;
 }
 
+.dates {
+    text-decoration: none;
+    color: inherit;
+}
+
 .experience .box .item p {
     line-height: 24px;
 }
