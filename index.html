@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <!-- SECTION SOCIALS -->
+        <div class="social">
+            <a href="https://www.facebook.com/daniel.filipe.39501789" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/?lang=pt" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/daniel_ferreira_199/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-ferreira-bb835522b/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/7dferreira" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <div class="social-email">
+            <a class="vertical-text" href="mailto:dfilipe148@gmail.com" target="_blank">
+                dfilipe148@gmail.com
+            </a>
+        </div>
+    <!-- SECTION HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#home">&lt;devDaniel/&gt;</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#aboutme" onclick="seleccionar()">About</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="#experience" onclick="seleccionar()">Experience</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Projects</a></li>
+                    <div class="button-cv">
+                    <button><a style="color: white; text-decoration: none;" href="./img/CV.pdf" download>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                    </a></button>
+                     </div>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECTION HEADER -->
+
+    <!-- SECTION HOME -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/daniel.jpg" alt="">
+            </div>
+            <div class="hero__description" id="hero__description">
+                <div class="introduction introduction--1">Hello, I am</div>
+                <div class="introduction introduction--2">Daniel Ferreira</div>
+                <div class="introduction introduction--3">Junior Developer</div>
+              </div>              
+        </div>
+        <img class="hero__img" src="img/foto1.png" alt="" />
+    </section>
+    <!-- SECTION HOME -->
+
+    <!-- SECTION ABOUT ME -->
+    <section id="aboutme" class="aboutme">
+        <h2>About Me</h2>
+        <div class="container-section"> 
+            <div class="column">
+                <img src="img/foto2.png" alt="">
+            </div>
+            <div class="column">
+                <p><span>Hi, my name is Daniel Ferreira.</span> I am a professional programmer in my daily life.
+                    A quick learner with a self-learning attitude. I like to learn and explore new technologies
+                    and am committed to problem solving. 
+                </p> 
+                <p>
+                    I have a level 5 qualification
+                    skilled qualifications of the European Qualifications Framework (EQF)
+                    in Technologies and Programming information systems (TPIS), taken at the IEFP training centre.
+                    I have a year of academic experience developed during the TPIS course.
+                </p>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            26-10-1996
+                        </li>
+                        <li>
+                            <strong>Phone Number</strong>
+                            915549637
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            dfilipe148@gmail.com
+                        </li>
+                        <li>
+                            <strong>GitHub</strong>
+                            7dferreira
+                        </li>
+                        <li>
+                            <strong>Country</strong>
+                            Portugal
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>JUNIOR DEVELOPER</span>
+                        </li>
+                    </ul>
+            </div>  
+        </div>
+    </section>
+    <!-- SECTION ABOUT ME -->
+
+    <!-- SECTION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="container-section">
+            <h2>Skills</h2>
+            <div class="skills__text">
+                <p> Work with a variety of diﬀerent languages, frameworks, and content management systems such as JavaScript, 
+                    React, NodeJS, ExpressJS, Sequelize etc, Applied optimization techniques to reduce page size and load times to enhance 
+                    user experience.
+                </p>
+                </br>
+                <p>
+                    I am passionate about creating wonderful user experiences and interfaces that are 
+                    comfortable to use by everyone in the web. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="skills__boxes">
+        <div class="skills__box technologies">
+          <ul>
+            <h2>Front-end technologies:</h2>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Git</li>
+          </ul>
+          <ul>
+            <h2 class="other-technologies-header">Back-end technologies:</h2>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>Sequelize</li>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+          </ul>
+        </div>
+        <div class="skills__box programs-and-tools">
+          <ul>
+            <h2>Programs and tools:</h2>
+            <li>Figma</li>
+            <li>Visual Studio Code</li>
+            <li>GitHub</li>
+            <li>GitLab</li>
+            <li>Visual Studio</li>
+            <li>MySQL</li>
+            <li>IntelliJ</li>
+            <li>SQLServer</li>
+            <li>StarUML</li>
+            <li>Insomnia</li>
+            <li>MongoDBCompass</li>
+            <li>StreamChat</li>
+          </ul>
+        </div>
+        <div class="skills__box other-skills">
+          <ul>
+            <h2>Other Technologies:</h2>
+            <li>Python</li>
+            <li>Java</li>
+          </ul>       
+          <ul>
+            <h2>Other Skills:</h2>
+            <li>English: C1</li>
+            <li>Portuguese: Native</li>
+          </ul>
+        </div>
+    </section>
+    
+    <!-- SECTION SKILLS -->
+
+    <!-- SECTION EXPERIENCE -->
+    
+    <section id="experience" class="experience">
+        <div class="container-section">
+            <h2>Experience</h2>
+            <div class="box">
+                <div class="col left">
+                    <h3>Course LEVEL 3 (EQF)</h3>
+                    <div class="item der">
+                        <h4>Science and technology</h4>
+                        <span class="school">Mealhada High School</span>
+                        <span class="dates">09/2017 - 08/2020</span>
+                        <p>Science and Technology Course,
+                            level 3 qualifications of the European Qualifications Framework (EQF). (12)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col right">
+                    <h3>Course LEVEL 5 (EQF)</h3>
+                    <div class="item der">
+                        <h4>Technologies and Programming information systems (TPIS)</h4>
+                        <span class="school">IEFP</span>
+                        <span class="dates">07/20222 - 07/2023</span>
+                        <p>Technology and Programming course of information systems,
+                            level 5 qualifications of the European Qualifications Framework (EQF). (18)</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION EXPERIENCE -->
+
+    <!-- SECTION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="container-section">
+            <h2>Projects</h2>
+            <div class="galeria">
+                <div class="projects">
+                    <img src="img/p1.jpg" alt="">
+                    <a target="_blank" href="https://github.com/7dferreira/Classify"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Classify</h3>
+                            <p>ReactJS + NodeJS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects">
+                    <img src="img/p2.jpg" alt="">
+                    <a target="_blank" href="https://github.com/7dferreira/CET22031_Client_Labs"
+                        style="text-decoration: none; color: white;">
+                        <div class="overlay">
+                            <h3>Museum Website</h3>
+                            <p>HTML + CSS</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="projects">
+                    <img src="img/p3.png" alt="">
+                    <a target="_blank" href="https://github.com/7dferreira/CET22031_Client_Labs"
+                        style="text-decoration: none; color: white;">
+                    <div class="overlay">
+                        <h3>Tournament Registration Form Website</h3>
+                        <p>JS + Python</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION PORTFOLIO -->
+
+    <!-- SECTION FOOTER -->
+    <footer style="background-color: #1e2326;">
+        <a href="#home" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="socials">
+            <a href="https://www.facebook.com/daniel.filipe.39501789" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/?lang=pt" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.instagram.com/daniel_ferreira_199/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/daniel-ferreira-bb835522b/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/7dferreira" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+    <!-- SECTION FOOTER -->
+
+    <script src="script.js"></script>
+</body>
+</html>
