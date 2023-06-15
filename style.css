@@ -474,13 +474,13 @@ html {
     display: block;
     color: #1CB698;
     margin-bottom: 10px;
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .dates {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .experience .box .item p {
