@@ -117,7 +117,7 @@ html {
 .container-header header ul {
     display: flex;
     list-style: none;
-    
+    align-items: center;
 }
 
 .container-header header nav ul li a {
@@ -167,7 +167,7 @@ html {
     color: #fff;
     position: relative;
     z-index: 10;
-    
+    padding: 7px 0px;
 }
 
 /* SECCION H O M E */
